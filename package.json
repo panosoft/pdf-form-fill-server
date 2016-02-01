@@ -4,14 +4,28 @@
   "description": "Render filled pdf forms.",
   "main": "bin/index.js",
   "bin": {
-    "@panosoft/pdf-form-fill-server": "index.js"
-  },
-  "directories": {
-    "test": "test"
+    "pdf-form-fill-server": "bin/index.js"
   },
   "scripts": {
     "test": "mocha"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@panosoft/https-server": "^0.1.1",
+    "@panosoft/pdf-form-fill": "^0.1.4",
+    "co": "^4.6.0",
+    "co-body": "^4.0.0",
+    "is_js": "^0.8.0",
+    "mime-types": "^2.1.9"
+  },
+  "devDependencies": {
+    "bunyan": "^1.5.1",
+    "chai": "^3.5.0",
+    "concat-stream": "^1.5.1",
+    "mocha": "^2.4.5",
+    "parse-json": "^2.2.0",
+    "pdf-text": "^0.4.0",
+    "ramda": "^0.19.1"
+  }
 }
