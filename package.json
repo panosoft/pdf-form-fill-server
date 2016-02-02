@@ -1,6 +1,6 @@
 {
   "name": "@panosoft/pdf-form-fill-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Render filled pdf forms.",
   "main": "bin/index.js",
   "bin": {
