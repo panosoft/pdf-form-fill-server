@@ -107,7 +107,7 @@ describe('pdf-form-fill-server', () => {
       expectError(response, 'Invalid request: body: input: formData must be an object.');
     }));
     it('render form', co.wrap(function * () {
-      this.timeout(10000);
+      this.timeout(30000);
       const data = JSON.stringify({ input: { formFile, formData } });
       const response = yield request(url, method, headers, data);
       expect(response.statusCode).to.equal(200);
