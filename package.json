@@ -20,12 +20,8 @@
     "mime-types": "^2.1.9"
   },
   "devDependencies": {
-    "bunyan": "^1.5.1",
     "chai": "^3.5.0",
-    "concat-stream": "^1.5.1",
     "mocha": "^2.4.5",
-    "parse-json": "^2.2.0",
-    "pdf-text": "^0.4.0",
-    "ramda": "^0.19.1"
+    "pdf-text": "^0.4.0"
   }
 }
